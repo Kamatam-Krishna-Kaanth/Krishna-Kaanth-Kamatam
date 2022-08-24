@@ -1,3 +1,5 @@
+#FUNCTION
+
 def calc(num1,num2,Operation):
     if Operation=="+":
         print(num1+num2)
@@ -9,3 +11,12 @@ def calc(num1,num2,Operation):
         print(num1+num2)
     else:
         print("invalid Operation")
+
+
+#OUTPUT
+
+calc(2,2,"+")
+4
+
+calc(3,2,"-")
+1
